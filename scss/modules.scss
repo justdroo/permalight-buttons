@@ -1,0 +1,25 @@
+//Primary Colors
+$black: #000000;
+$white: #ffffff;
+$darkGray: #666666;
+$lightGray: #b7b7b7;
+
+//Secondary Colors
+$t-dark: #615857;
+$t-light: #E68F89;
+$t-mid: #E14D43;
+$t-midLight: #AE3C34;
+$t-midDark: #615857;
+
+//Sizing
+$spacing: .33em;
+$sizeSD: 1.3em;
+$corners: 12px;
+
+//Typography
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway:300|Roboto:500');
+
+//Style
+@mixin shadow($color) {
+  box-shadow: 0 2px 5px $color;
+}

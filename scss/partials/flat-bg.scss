@@ -1,0 +1,87 @@
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: $white;
+  text-transform: capitalize;
+  display: inline-block;
+  padding-left: $spacing;
+}
+
+.mobile-size {
+  width: $spacing*86;
+}
+
+.mobile-container {
+  margin-top: $spacing*6;
+  background-color: $t-mid;
+
+  a {
+    color: $white;
+    text-shadow: none;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-shadow: -.5px .5px $t-dark;
+  }
+
+  a:active {
+    color: $t-light;
+  }
+
+  .exit {
+    a {
+      color: $t-midLight - 25;
+    }
+
+    a:hover {
+      text-shadow: -.5px .5px $t-light;
+    }
+
+    a:active {
+      color: $white;
+    }
+  }
+}
+
+.title-row {
+  font-size: .6em;
+  padding-left: 2em;
+}
+
+.exit {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.45em;
+  padding-left: $spacing*58;
+}
+
+.call-to-action {
+  margin-top: $spacing*24;
+  padding-bottom: $spacing*24;
+}
+
+.flat-btn-size {
+  width: $spacing*22;
+}
+
+.flat-btn {
+  color: $t-midLight - 25;
+  text-transform: none;
+  font-family: 'Montserrat', sans-serif;
+
+  background-color: $t-light;
+  padding: $spacing;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: $spacing;
+  box-shadow: -1px 1px $white;
+  text-shadow: -.5px .5px $t-light + 50;
+}
+
+.flat-btn:hover {
+  box-shadow: -1.5px 1.5px $white;
+  text-shadow: -.75px .75px $t-light + 50;
+}
+
+.flat-btn:active {
+  text-shadow: 0 1px 0px $white;
+}

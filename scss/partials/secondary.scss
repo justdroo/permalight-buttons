@@ -1,0 +1,28 @@
+.secondary {
+  margin-top: $spacing*3;
+  a {
+    color: $white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0px 1px 0px $t-mid;
+
+  }
+
+  .button {
+    background: linear-gradient($t-light + 50, $t-mid);
+    @include shadow($t-midDark);
+  }
+
+  .btn-mid-border {
+    border: $spacing solid $t-mid;
+  }
+
+  .btn-container {
+    background-color: $white;
+    border: $spacing/2 solid $t-mid;
+    @include shadow($t-midDark);
+  }
+
+  .btn-container:hover {
+    box-shadow: 5px 5px 5px $t-midDark;
+  }
+}

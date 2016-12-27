@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway:300|Roboto:500");
+body {
+  margin: 1.65em; }
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  text-shadow: 0px 1px 0px #b7b7b7;
+  text-align: center;
+  font-size: 1.3em; }
+
+.btn-size {
+  width: 14.95em; }
+
+.button {
+  background: linear-gradient(#e9e9e9, #666666);
+  border-radius: 2px;
+  padding: 0.66em;
+  box-shadow: 0 2px 5px #666666; }
+
+.btn-mid-border {
+  border: 0.33em solid #b7b7b7;
+  border-radius: 8px; }
+
+.btn-container {
+  background-color: #ffffff;
+  border: 0.165em solid #000000;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px #666666;
+  padding: 0.09429em;
+  cursor: pointer; }
+
+.btn-container:hover {
+  box-shadow: 5px 5px 5px #666666; }
+
+.secondary {
+  margin-top: 0.99em; }
+  .secondary a {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0px 1px 0px #E14D43; }
+  .secondary .button {
+    background: linear-gradient(#ffc1bb, #E14D43);
+    box-shadow: 0 2px 5px #615857; }
+  .secondary .btn-mid-border {
+    border: 0.33em solid #E14D43; }
+  .secondary .btn-container {
+    background-color: #ffffff;
+    border: 0.165em solid #E14D43;
+    box-shadow: 0 2px 5px #615857; }
+  .secondary .btn-container:hover {
+    box-shadow: 5px 5px 5px #615857; }
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  text-transform: capitalize;
+  display: inline-block;
+  padding-left: 0.33em; }
+
+.mobile-size {
+  width: 28.38em; }
+
+.mobile-container {
+  margin-top: 1.98em;
+  background-color: #E14D43; }
+  .mobile-container a {
+    color: #ffffff;
+    text-shadow: none;
+    text-decoration: none; }
+  .mobile-container a:hover {
+    text-shadow: -0.5px 0.5px #615857; }
+  .mobile-container a:active {
+    color: #E68F89; }
+  .mobile-container .exit a {
+    color: #95231b; }
+  .mobile-container .exit a:hover {
+    text-shadow: -0.5px 0.5px #E68F89; }
+  .mobile-container .exit a:active {
+    color: #ffffff; }
+
+.title-row {
+  font-size: .6em;
+  padding-left: 2em; }
+
+.exit {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.45em;
+  padding-left: 19.14em; }
+
+.call-to-action {
+  margin-top: 7.92em;
+  padding-bottom: 7.92em; }
+
+.flat-btn-size {
+  width: 7.26em; }
+
+.flat-btn {
+  color: #95231b;
+  text-transform: none;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #E68F89;
+  padding: 0.33em;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.33em;
+  box-shadow: -1px 1px #ffffff;
+  text-shadow: -0.5px 0.5px #ffc1bb; }
+
+.flat-btn:hover {
+  box-shadow: -1.5px 1.5px #ffffff;
+  text-shadow: -0.75px 0.75px #ffc1bb; }
+
+.flat-btn:active {
+  text-shadow: 0 1px 0px #ffffff; }
+
+/*# sourceMappingURL=master.css.map */
