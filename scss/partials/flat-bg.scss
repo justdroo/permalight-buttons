@@ -14,34 +14,38 @@ h3 {
   margin-top: $spacing*6;
   background-color: $t-mid;
 
-  a {
-    color: $white;
-    text-shadow: none;
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-shadow: -.5px .5px $t-dark;
-  }
-
-  a:active {
-    color: $t-light;
-  }
-
-  .exit {
+  .title-row {
+    //PERMALIGHT on LEFT
     a {
-      color: $t-midLight - 25;
+      color: $white;
+      text-shadow: none;
+      text-decoration: none;
     }
 
     a:hover {
-      text-shadow: -.5px .5px $t-light;
+      text-shadow: -.75px .75px $t-dark;
     }
 
     a:active {
-      color: $white;
+      color: $t-light;
+    }
+
+    .exit {
+      // X btn on RIGHT
+      a {
+        color: $t-midLight - 25;
+      }
+
+      a:hover {
+        text-shadow: -.5px .5px $t-light;
+      }
+
+      a:active {
+        color: $white;
+      }
     }
   }
-}
+  }
 
 .title-row {
   font-size: .6em;

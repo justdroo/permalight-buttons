@@ -65,19 +65,19 @@ h3 {
 .mobile-container {
   margin-top: 1.98em;
   background-color: #E14D43; }
-  .mobile-container a {
+  .mobile-container .title-row a {
     color: #ffffff;
     text-shadow: none;
     text-decoration: none; }
-  .mobile-container a:hover {
-    text-shadow: -0.5px 0.5px #615857; }
-  .mobile-container a:active {
+  .mobile-container .title-row a:hover {
+    text-shadow: -0.75px 0.75px #615857; }
+  .mobile-container .title-row a:active {
     color: #E68F89; }
-  .mobile-container .exit a {
+  .mobile-container .title-row .exit a {
     color: #95231b; }
-  .mobile-container .exit a:hover {
+  .mobile-container .title-row .exit a:hover {
     text-shadow: -0.5px 0.5px #E68F89; }
-  .mobile-container .exit a:active {
+  .mobile-container .title-row .exit a:active {
     color: #ffffff; }
 
 .title-row {
