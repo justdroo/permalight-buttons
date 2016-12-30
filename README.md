@@ -14,9 +14,9 @@ I decided not to adjust my CodePen so that you could continue to reference that 
 3. Created a secondary branded button based on Permalight colors and fonts from website
 
 4. Created a flat button that was closer to the Permalight design.
-- Based off of mobile view after clicking on dropdown menu
-- Button has hover and click events (CSS only)
-- Home button and X button have hover and click events (CSS only)
+  - Based off of mobile view after clicking on dropdown menu
+  - Button has hover and click events (CSS only)
+  - Home button and X button have hover and click events (CSS only)
 
 Additional Notes:
 - The flat button SCSS file might appear more nested than necessary... that's because it is. I was practicing nesting style rules so I may have gone a little overboard.
