@@ -8,15 +8,14 @@ I decided not to adjust my CodePen so that you could continue to reference that 
  - Same thing for partials, I could have split them out even more but based on the size of the project I thought this was okay
 
 2. Fixed shadow and border irregularity on initial (gray) button
-  - I ended up having to add the extra div, which at the end of the day made things quite a bit simpler to deal with
+  - I ended up adding the extra div, which actually made things simpler.
   - Border issue was not nearly as hard as I thought it would be: https://css-tricks.com/public-service-announcement-careful-with-your-nested-border-radii/
 
-3. Created a secondary branded button based on Permalight colors and fonts from website
+3. Created a secondary branded button based on Permalight colors and fonts.
 
-4. Created a flat button that was closer to the Permalight design.
-Based off of mobile view after clicking on dropdown menu.
-Button has hover and click events (CSS only).
-Home button and X button have hover and click events (CSS only).
+4. Designed a flat button that reflected the Permalight design.
+Based on mobile view after clicking on dropdown menu.
+call-to-action, home and exit buttons had hover and click events (CSS only).
 
 Additional Notes:
-- The flat button SCSS file might appear more nested than necessary... that's because it is. I was practicing nesting style rules so I may have gone a little overboard.
+- The flat button SCSS file might appear more nested than necessary...it is. I was practicing nesting style rules so I may have gone a little overboard in my excitement.
