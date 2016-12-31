@@ -15,7 +15,7 @@ I decided not to adjust my CodePen so that you could continue to reference that 
 
 4. Designed a flat button that reflected the Permalight design.
 Based on mobile view after clicking on dropdown menu.
-call-to-action, home and exit buttons had hover and click events (CSS only).
+Call-to-action, Home and Exit buttons/links had hover and click events (CSS only).
 
 Additional Notes:
 - The flat button SCSS file might appear more nested than necessary...it is. I was practicing nesting style rules so I may have gone a little overboard in my excitement.
